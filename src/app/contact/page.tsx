@@ -126,7 +126,7 @@ export default function ContactPage() {
                 <div className="text-center py-8">
                   <CheckCircle className="w-16 h-16 text-green-500 mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Message Sent Successfully!</h3>
-                  <p className="text-gray-600">We'll get back to you within 24 hours.</p>
+                  <p className="text-gray-600">We&apos;ll get back to you within 24 hours.</p>
                 </div>
               ) : (
                 <form onSubmit={handleSubmit} className="space-y-6">
@@ -333,7 +333,7 @@ export default function ContactPage() {
             Ready to Start Planning?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Don't wait! Contact us today and let our experts help you create the perfect event.
+            Don&apos;t wait! Contact us today and let our experts help you create the perfect event.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

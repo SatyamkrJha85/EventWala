@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+
 import { X, Heart, Trash2, ShoppingCart, ArrowRight } from 'lucide-react';
 
 interface WishlistItem {

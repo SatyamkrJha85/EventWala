@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Search, MapPin, Star, Phone, Mail, Heart, Filter, Award, Clock, Users } from 'lucide-react';
+import { Search, MapPin, Star, Phone, Mail, Heart, Users } from 'lucide-react';
 import { vendors } from '@/data/events';
 
 export default function VendorsPage() {
@@ -77,7 +77,7 @@ export default function VendorsPage() {
             Find Expert Vendors
           </h1>
           <p className="text-xl text-orange-100 max-w-2xl mx-auto">
-            Connect with trusted professionals for every aspect of your event. From catering to entertainment, we've got you covered.
+            Connect with trusted professionals for every aspect of your event. From catering to entertainment, we&apos;ve got you covered.
           </p>
         </div>
       </section>
@@ -259,7 +259,7 @@ export default function VendorsPage() {
                         </span>
                       </div>
                       <p className="text-sm text-gray-600 line-clamp-2">
-                        "{vendor.reviews[0].comment}"
+                        &ldquo;{vendor.reviews[0].comment}&rdquo;
                       </p>
                     </div>
                   )}
@@ -339,7 +339,7 @@ export default function VendorsPage() {
             Need a Custom Quote?
           </h2>
           <p className="text-xl mb-8 text-orange-100">
-            Can't find exactly what you're looking for? Our team can help you find the perfect vendor or create a custom package.
+            Can&apos;t find exactly what you&apos;re looking for? Our team can help you find the perfect vendor or create a custom package.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-orange-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-50 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">

@@ -213,7 +213,7 @@ export default function VenuesPage() {
                         </span>
                       </div>
                       <p className="text-sm text-gray-600 line-clamp-2">
-                        "{venue.reviews[0].comment}"
+                        &ldquo;{venue.reviews[0].comment}&rdquo;
                       </p>
                     </div>
                   )}
@@ -277,7 +277,7 @@ export default function VenuesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Can't Find the Perfect Venue?
+            Can&apos;t Find the Perfect Venue?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
             Our venue experts can help you find the ideal location for your celebration. Get personalized recommendations based on your requirements.

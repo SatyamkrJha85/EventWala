@@ -1,45 +1,17 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Heart, Plus, Minus, ShoppingCart, Star } from 'lucide-react';
+import { Heart, Plus, Minus, ShoppingCart } from 'lucide-react';
 import { eventCategories } from '@/data/events';
 import { notFound } from 'next/navigation';
 
-interface PackageItem {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  quantity: number;
-  maxQuantity: number;
-  image: string;
-}
 
-interface Package {
-  id: string;
-  name: string;
-  description: string;
-  price: number;
-  image: string;
-  category: string;
-  items: PackageItem[];
-}
 
-interface SubEvent {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  packages: Package[];
-}
 
-interface EventCategory {
-  id: string;
-  name: string;
-  description: string;
-  image: string;
-  subEvents: SubEvent[];
-}
+
+
+
+
 
 interface SelectedPackage {
   packageId: string;

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Calendar, Users, Star } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { eventCategories } from '@/data/events';
 
 export default function EventsPage() {
@@ -98,7 +98,7 @@ export default function EventsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Can't Find What You're Looking For?
+            Can&apos;t Find What You&apos;re Looking For?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
             Our team of event planning experts can help you create a custom package for any celebration

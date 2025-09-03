@@ -57,7 +57,7 @@ export default function Navbar() {
     console.log('Remove from wishlist:', id);
   };
 
-  const handleAddToCart = (item: any) => {
+  const handleAddToCart = (item: { id: string; name: string; price: number }) => {
     // In real app, add to cart state
     console.log('Add to cart:', item);
   };

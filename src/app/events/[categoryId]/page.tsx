@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ArrowLeft, ArrowRight, Star, Package, Calendar, Users } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Star, Package, Users } from 'lucide-react';
 import { eventCategories } from '@/data/events';
 
 interface PageProps {

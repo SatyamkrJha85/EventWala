@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Calendar, Users, MapPin, DollarSign, CheckCircle, Circle, ArrowRight, ArrowLeft, Plus, Minus, Clock, Target, TrendingUp, Save, Download, Share2 } from 'lucide-react';
+import { CheckCircle, Circle, ArrowRight, ArrowLeft, Plus, Minus, Save, Download, Share2 } from 'lucide-react';
 
 interface PlanningStep {
   id: string;
@@ -39,7 +39,7 @@ interface TimelineItem {
 
 export default function EventPlannerPage() {
   const [currentStep, setCurrentStep] = useState(0);
-  const [eventDetails, setEventDetails] = useState({
+  const [eventDetails] = useState({
     eventType: '',
     date: '',
     guestCount: 0,
@@ -157,7 +157,7 @@ export default function EventPlannerPage() {
     }
   };
 
-  const toggleTaskCompletion = (stepId: string, taskId: string) => {
+  const toggleTaskCompletion = () => {
     // Implementation for toggling task completion
   };
 
@@ -274,7 +274,7 @@ export default function EventPlannerPage() {
               {planningSteps[currentStep].tasks.map((task) => (
                 <div key={task.id} className="flex items-center space-x-4 p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
                   <button
-                    onClick={() => toggleTaskCompletion(planningSteps[currentStep].id, task.id)}
+                    onClick={() => toggleTaskCompletion()}
                     className="text-2xl text-gray-400 hover:text-orange-500 transition-colors"
                   >
                     {task.completed ? <CheckCircle className="text-green-500" /> : <Circle />}

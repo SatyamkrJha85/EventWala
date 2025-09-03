@@ -105,7 +105,7 @@ export default function HomePage() {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg mb-6 lg:mb-8">
               <Sparkles className="w-4 h-4 lg:w-5 lg:h-5 text-orange-500" />
-              <span className="text-sm font-medium text-gray-700">India's #1 Event Planning Platform</span>
+              <span className="text-sm font-medium text-gray-700">India&apos;s #1 Event Planning Platform</span>
             </div>
             
             {/* Main Heading */}
@@ -211,7 +211,7 @@ export default function HomePage() {
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {eventCategories.map((category, index) => (
+            {eventCategories.map((category) => (
               <Link
                 key={category.id}
                 href={`/events/${category.id}`}

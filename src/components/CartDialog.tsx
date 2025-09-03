@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+
 import { X, ShoppingCart, Trash2, Plus, Minus, ArrowRight } from 'lucide-react';
 
 interface CartItem {
