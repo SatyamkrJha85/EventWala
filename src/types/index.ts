@@ -87,3 +87,4 @@ export interface EventPlan {
   date: string;
   status: 'draft' | 'confirmed' | 'completed';
 }
+
